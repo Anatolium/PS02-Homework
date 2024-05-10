@@ -22,7 +22,8 @@ import pprint
 # response = requests.get("https://api.github.com/search/repositories", params=params)
 # response_json = response.json()
 # print(f"Количество репозиториев Python: {response_json['total_count']}")
-# Тот же запрос в строке браузера "https://api.github.com/search/repositories?q=python"
+
+# Тот же запрос в строке браузера: "https://api.github.com/search/repositories?q=python"
 
 # img = "https://img2.fonwall.ru/o/fx/kot-koshka-ryzhiy.jpg"
 # response = requests.get(img)
@@ -49,5 +50,3 @@ except Exception as e:
 else:
     print(response.status_code)
     print(f"{response.json()}")
-
-
